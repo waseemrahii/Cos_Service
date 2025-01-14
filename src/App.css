@@ -1,0 +1,1393 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #E20613 !important;
+}
+.custom-email {
+  margin-left: 10px; 
+}
+.intro-text {
+  text-align: left;
+  font-weight: 200;
+  font-family: Arial, sans-serif;
+}
+
+.custom-navbar-container {
+  max-width: 960px; 
+  margin: 0 auto; 
+}
+.blog-section {
+  background: url(https://construm.bugfinder.net/assets/uploads/content/63ad6c25291271672309797.jpg);
+  background-size: cover;
+}
+.experience-section {
+  background: url(https://construm.bugfinder.net/assets/uploads/content/63ad344d7d09e1672295501.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Base styles for the Knowledge component */
+.knowledgebase-section .text-box h2 {
+  text-align: left;
+}
+
+.knowledgebase-section .text-box p {
+  text-align: left;
+}
+
+.knowledgebase-section .knowledge-box .header .icon {
+  font-size: 2rem;
+}
+
+.knowledgebase-section .knowledge-box .header .text h5 {
+  font-size: 1.5rem;
+}
+
+.knowledgebase-section .knowledge-box .header .text p {
+  font-size: 1rem;
+}
+
+.knowledgebase-section .knowledge-box ul li a {
+  font-size: 0.95rem;
+}
+
+.knowledgebase-section .knowledge-box .read-more {
+  font-size: 1rem;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 480px) {
+  .knowledgebase-section .text-box h2 {
+    font-size: 1.8rem;
+  }
+
+  .knowledgebase-section .text-box p {
+    font-size: 1rem;
+  }
+
+  .knowledgebase-section .knowledge-box .header .text h5 {
+    font-size: 1.4rem;
+  }
+
+  .knowledgebase-section .knowledge-box .header .text p {
+    font-size: 0.9rem;
+  }
+
+  .knowledgebase-section .knowledge-box ul li a {
+    font-size: 0.9rem;
+  }
+
+  .knowledgebase-section .knowledge-box .read-more {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .knowledgebase-section .text-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .knowledgebase-section .text-box p {
+    font-size: 0.85rem;
+  }
+
+  .knowledgebase-section .knowledge-box .header .text h5 {
+    font-size: 1.1rem;
+  }
+
+  .knowledgebase-section .knowledge-box .header .text p {
+    font-size: 0.75rem;
+  }
+
+  .knowledgebase-section .knowledge-box ul li a {
+    font-size: 0.75rem;
+  }
+
+  .knowledgebase-section .knowledge-box .read-more {
+    font-size: 0.8rem;
+  }
+}
+/* Custom styles for NavbarCart */
+
+/* Style the cart icon button */
+.shopping-cart .cart-button {
+  background: none;
+  border: none;
+  position: relative;
+  font-size: 1.5rem; /* Adjust the size of the cart icon */
+  color: #333; /* Change the color if needed */
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Style the cart icon */
+.shopping-cart .cart-icon {
+  font-size: 1.5rem; /* Adjust the cart icon size */
+  color: #333;
+}
+
+/* Style the cart count badge */
+.shopping-cart .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
+
+/* Style the cart dropdown */
+.shopping-cart .cart-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Adjust the dropdown width */
+  padding: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+/* Show dropdown on hover */
+.shopping-cart:hover .cart-dropdown {
+  display: block;
+}
+
+/* Style the cart subtotal area */
+.shopping-cart .cart-bottom .text_area {
+  padding: 10px 0;
+  font-size: 0.9rem; /* Adjust text size */
+}
+
+/* Style the buttons in the dropdown */
+.shopping-cart .cart-bottom .btn-custom {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  font-size: 0.85rem;
+  background-color: #E20613;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Hover effects for buttons */
+.shopping-cart .cart-bottom .btn-custom:hover {
+  background-color: #e55a00;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .shopping-cart .cart-dropdown {
+      width: 200px; /* Adjust dropdown width for smaller screens */
+  }
+
+  .shopping-cart .cart-button {
+      font-size: 1.2rem; /* Adjust cart icon size for smaller screens */
+  }
+}
+/* Custom styles for NavbarCart */
+
+/* Initially hide the cart dropdown */
+.shopping-cart .cart-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Adjust the dropdown width */
+  padding: 10px;
+  display: none; /* Hide by default */
+  z-index: 1000;
+}
+
+/* Show the dropdown when `isDropdownOpen` is true */
+.shopping-cart .cart-dropdown.show {
+  display: block;
+}
+
+/* Additional styling remains the same as before */
+.shopping-cart .cart-button {
+  background: none;
+  border: none;
+  position: relative;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+}
+
+.shopping-cart .cart-icon {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.shopping-cart .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .shopping-cart .cart-dropdown {
+      width: 200px; /* Adjust dropdown width for smaller screens */
+  }
+
+  .shopping-cart .cart-button {
+      font-size: 1.2rem; /* Adjust cart icon size for smaller screens */
+  }
+}
+/* Custom styles for NavbarCart */
+
+/* Style the cart icon button */
+.shopping-cart {
+  position: relative;
+}
+
+.shopping-cart .cart-button {
+  background: none;
+  border: none;
+  position: relative;
+  font-size: 1.5rem; /* Adjust the size of the cart icon */
+  color: #333; /* Change the color if needed */
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Style the cart icon */
+.shopping-cart .cart-icon {
+  font-size: 1.5rem; /* Adjust the cart icon size */
+  color: #333;
+}
+
+/* Style the cart count badge */
+.shopping-cart .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
+
+/* Style the cart dropdown */
+.shopping-cart .cart-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Adjust the dropdown width */
+  padding: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+/* Show dropdown when hovering over cart button or dropdown itself */
+.shopping-cart:hover .cart-dropdown,
+.shopping-cart .cart-dropdown:hover {
+  display: block;
+}
+
+/* Style the cart subtotal area */
+.shopping-cart .cart-bottom .text_area {
+  padding: 10px 0;
+  font-size: 0.9rem; /* Adjust text size */
+}
+
+/* Style the buttons in the dropdown */
+.shopping-cart .cart-bottom .btn-custom {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  font-size: 0.85rem;
+  background-color: #fe6600;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Hover effects for buttons */
+.shopping-cart .cart-bottom .btn-custom:hover {
+  background-color: #e55a00;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .shopping-cart .cart-dropdown {
+      width: 200px; /* Adjust dropdown width for smaller screens */
+  }
+
+  .shopping-cart .cart-button {
+      font-size: 1.2rem; /* Adjust cart icon size for smaller screens */
+  }
+}
+/* Base styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* NavbarCart styles */
+.shopping-cart {
+  position: relative;
+}
+
+.shopping-cart .cart-button {
+  background: none;
+  border: none;
+  position: relative;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+}
+
+.shopping-cart .cart-icon {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.shopping-cart .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
+
+/* Style the cart dropdown */
+.shopping-cart .cart-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+/* Ensure the dropdown stays open on hover */
+.shopping-cart:hover .cart-dropdown,
+.shopping-cart .cart-dropdown:hover {
+  display: block;
+}
+
+.shopping-cart .cart-bottom .text_area {
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
+
+.shopping-cart .cart-bottom .btn-custom {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  font-size: 0.85rem;
+  background-color: #fe6600;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.shopping-cart .cart-bottom .btn-custom:hover {
+  background-color: #e55a00;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .shopping-cart .cart-dropdown {
+    width: 200px;
+  }
+
+  .shopping-cart .cart-button {
+    font-size: 1.2rem;
+  }
+}
+.shopping-cart .cart-bottom .col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-cart .btn-custom {
+  flex: 1;
+  margin: 5px;
+  font-size: 0.85rem;
+  background-color: #fe6600;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.shopping-cart .btn-custom:first-child {
+  margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.shopping-cart .btn-custom:hover {
+  background-color: #e55a00;
+}
+
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.blog-page {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-lg-4,
+.col-md-6 {
+  padding: 0 15px;
+}
+
+.blog-box {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.blog-box:hover {
+  transform: translateY(-5px);
+}
+
+.img-box {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.img-box:hover img {
+  transform: scale(1.1);
+}
+
+.date {
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+
+.text-box {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.text-box h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.author-date {
+  font-size: 14px;
+  color: #777;
+}
+
+.read-more {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .img-box {
+      height: 150px;
+  }
+}
+.about-section {
+    padding: 60px 0;
+}
+
+.img-box {
+    margin-bottom: 20px;
+}
+
+.img-box img {
+    border-radius: 10px;
+}
+.blog-details-page .side-bar {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.blog-details-page .side-bar .side-box {
+  margin-bottom: 20px;
+}
+
+.blog-details-page .side-bar .side-box h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.blog-details-page .side-bar .side-box ul.links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-details-page .side-bar .side-box ul.links li {
+  margin-bottom: 10px;
+}
+
+.blog-details-page .side-bar .side-box ul.links li a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.blog-details-page .side-bar .side-box ul.links li a:hover {
+  text-decoration: underline;
+}
+
+.blog-details-page .img-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-details-page .text-box h4.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.blog-details-page .text-box p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-cart {
+    font-weight: normal; /* Set font weight to normal */
+}
+.team-box {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.team-box:hover {
+  transform: translateY(-10px);
+}
+
+.img-box {
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.social-links {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 30px;
+  bottom: 10px;
+}
+
+.social-icon {
+  color: #ff5722;
+  font-size: 16px;
+}
+
+.text-box {
+  padding: 15px;
+}
+
+.text-box h4 {
+  font-weight: 700;
+}
+
+.text-box span {
+  color: #888;
+}
+/* Date Badge Styling */
+.date {
+  top: 10px;
+  left: 10px;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+/* Sidebar Styling */
+.side-bar {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.side-box h4 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.side-box .links li {
+  margin-bottom: 0.5rem;
+}
+
+.side-box .links .badge {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+/* Blog Box Styling */
+.blog-box {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.blog-box:hover {
+  transform: translateY(-5px);
+}
+
+.blog-box .img-box {
+  position: relative;
+  height: 200px;
+}
+
+.blog-box .img-box img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.blog-box .text-box {
+  padding: 1rem;
+}
+
+.blog-box .title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.blog-box .read-more {
+  text-decoration: none;
+  color: #E20613 !important;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.blog-box .read-more:hover {
+  color: #E20613 !important;
+}
+/* Date Badge Styling */
+.date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #E20613 !important; /* Orange color */
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Adjust width to make it more compact */
+  height: 60px; /* Height to make the box a bit taller */
+}
+
+.date span {
+  display: block;
+  font-size: 0.9rem; /* Slightly adjust font size */
+  text-transform: uppercase;
+}
+.service-box {
+  background-color: #f0f4fa; /* Light background similar to the image */
+  border-radius: 10px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.service-box:hover {
+  transform: translateY(-10px); /* Lift the box slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow on hover */
+}
+
+.service-title {
+  color: #1b2e4b; /* Darker text color for the title */
+}
+
+.service-description {
+  color: #666; /* Slightly lighter text color for the description */
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.img-box img {
+  width: 60px; /* Fixed width for the icons */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.text-center {
+  text-align: center; /* Center align the text */
+}
+.table-wrapper {
+  max-width: 100%;
+  overflow-x: auto; /* Ensures the table is scrollable on smaller screens */
+  margin: 20px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 80px; /* Adjust the size of the product image */
+  height: auto;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.btn-inc-dec {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.btn-inc-dec:hover {
+  background-color: #e2e6ea;
+}
+
+.counter {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+}
+
+.delete-item {
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.d-lg-flex {
+  display: flex;
+  align-items: center;
+}
+
+.d-lg-flex .mr-3 {
+  margin-right: 10px;
+}
+
+.d-lg-flex div {
+  flex-grow: 1; /* Ensures the product name grows to occupy remaining space */
+}
+
+#thumbCarousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+  gap: 10px; /* Space between thumbnails */
+}
+
+.carousel__slide {
+  flex: 0 0 auto; /* Prevents flex items from growing or shrinking */
+  width: 100px; /* Adjust this width as needed */
+  height: auto; /* Keeps the aspect ratio of the images */
+}
+
+/* More specific selector to target the main-thumbnail image */
+.carousel .main-thumbnail img {
+  width: 100% !important; /* Make sure it takes the full width of the container */
+  height: 600px !important; /* Increased height with !important to override any conflicting styles */
+  max-width: 100% !important; /* Ensure it doesn't exceed the container width */
+  object-fit: cover; /* Maintains aspect ratio while covering the container */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Adjust the number of lines to show */
+  -webkit-box-orient: vertical;
+  line-clamp: 3; /* Standard property for compatibility */
+}
+
+.circle{
+
+  margin-bottom: 37px;
+}
+.service-box {
+  min-height: 400px;
+  margin: 0 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.img-box {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.text-box {
+  padding: 1rem 1rem 0.5rem;
+}
+
+.service-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  color: #2d2d2d;
+}
+
+.service-description {
+  margin-bottom: 0;
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.service-link {
+  color: #FF6600;
+  text-decoration: none;
+  padding: 10px 0;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.service-link:hover {
+  color: #cc5200;
+}
+.text-left {
+  text-align: left;
+}
+
+.btn-custom {
+  background-color: #fe6600; /* Primary color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #fe6600; /* Darker shade on hover */
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.cart-item img {
+  border-radius: 4px;
+}
+
+.cart-item strong {
+  font-weight: 600;
+}
+
+.cart-item .mb-1 {
+  margin-bottom: 5px;
+}
+
+.table-wrapper {
+  overflow-x: auto; /* Ensures tables are responsive */
+}
+/* Target autofilled fields and set background and text color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #ced4da; /* Match your input border */
+  -webkit-text-fill-color: #495057; /* Match your input text color */
+  -webkit-box-shadow: 0 0 0px 1000px white inset; /* Force white background */
+  transition: background-color 5000s ease-in-out 0s; /* Workaround to maintain the background */
+}
+/* Example of adding !important */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Arial, sans-serif !important;
+}
+
+/* Add !important to all other CSS rules similarly */
+/* Add to your existing CSS */
+@media (max-width: 768px) {
+  .form-wrapper {
+    padding: 20px;
+  }
+
+  .login-section {
+    padding: 16px;
+  }
+
+  .grid-cols-1 {
+    grid-template-columns: 1fr; /* One column layout for smaller screens */
+  }
+
+  .max-w-lg {
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+
+  .input-box label {
+    font-size: 14px; /* Slightly smaller font for labels on smaller screens */
+  }
+
+  .btn-custom {
+    font-size: 16px; /* Maintain a readable font size for buttons */
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-custom {
+    padding: 10px 20px; /* Adjust button padding for very small screens */
+  }
+
+  .input-box {
+    margin-bottom: 15px; /* Space out input fields on small screens */
+  }
+
+  .login-section {
+    padding: 12px;
+  }
+
+
+  
+}
+/* Container for the whole section */
+.services-section {
+  padding: 2rem 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Grid layout for the service cards */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* Service card styling */
+.service-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.service-icon {
+  width: 100%;
+  height: auto;
+}
+
+.text-box {
+  text-align: center;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.service-link {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.service-link:hover {
+  color: #0056b3;
+}
+.img-box{
+
+  width: 500px;
+  height: 500px;
+
+}
+
+.img-fluid{
+
+  width: 100%;
+  height: 100%;
+}
+
+.img-fluid{
+max-height: 320px !important ;
+margin-left: -100px !important;
+}
+.faq-section .accordion-button{
+  background: #e20613;
+}
+.faq-section .accordion-button:not(.collapsed){
+  background: #1d1d1b
+}
+.social-icon{
+  color: #e20613
+}
+.knowledgebase-section .knowledge-box .header{
+  background:#e20613
+}
+.knowledgebase-section .knowledge-box .read-more{
+  color:#e20613 !important;
+}
+.btn-custom{
+  background-color:#e20613;
+  background:#e20613
+}
+.btn-custom:hover{
+  background-color:#1d1d1b;}
+h1, h2, h3, h4, h5{
+
+  color:#1d1d1b
+}
+#memberDetailsModal .social-links a{
+  background:#e20613
+}
+#memberDetailsModal .btn-close{
+  background-color:#e20613;
+
+}
+.gallery-section .portfolio-gallery .hover-item a{
+  background:#e20613
+
+}
+.services-section .service-box:hover{
+  background:#1d1d1b
+
+}
+.contact-section .info-box .icon-box i{
+  color:#e20613
+
+}
+.blog-page .blog-box .date {
+  background:#E20613 !important;
+
+}
+.blog-page .blog-box .author-date i{
+  color:#e20613 
+
+}
+element.style {
+  color:#e20613
+
+}
+.skitter .info_slide_dots .image_number{
+  border:2px solid #e20613
+
+}
+.skitter .info_slide_dots .image_number.image_number_select{
+  background-color:#e20613;
+
+}
+.skitter .info_slide_dots .image_number:hover{
+  background-color:#e20613;
+
+}
+.about-section .img-box::after{
+  background:#e20613
+
+}
+.services-section .owl-nav button{
+  border:2px solid #e20613  !important
+}
+.experience-section .experience-box h1{
+  color:#e20613  
+}
+.header-text h5{
+  color:#e20613  
+
+}
+.testimonial-section .review .title{
+    color:#e20613  
+
+}
+.base-color{
+  color:#e20613  
+
+}
+.testimonial-section .owl-nav button{
+  border:2px solid #e20613  !important
+
+}
+.testimonial-section .owl-nav button span{
+  color:#e20613  
+
+}
+.pricing-section .pricing-box.box-2 .pricing-header{
+  background: #e20613  ;
+}
+.pricing-section .pricing-box .pricing-header{
+  background: #1d1d1b
+}
+.top-bar::before {
+  background: #e20613  ;
+  border-right: #1d1d1b;
+}
+.top-bar span {
+  color:#e20613  
+
+}
+.top-bar .contacts i {
+  color:#e20613  
+
+}
+.top-bar::after{
+  background: #e20613  ;
+  border-left: #1d1d1b;
+
+
+}
+.navbar .shopping-cart .dropdown-toggle i{
+  color:#e20613  
+
+}
+.navbar .shopping-cart .dropdown-toggle .count{
+  background:#e20613
+}
+.btn-primary.disabled, .btn-primary:disabled{
+  background-color: #e20613 ;
+    border-color: #e20613 
+}
+.btn-outline-primary{
+  border-color: #e20613;
+}.form-check .form-check-input:checked{
+  background-color: #e20613 ;
+    border-color: #e20613 
+}
+.checkout-section .side-bar .side-box h4::before{
+  background:#e20613
+
+}
+.banner-section .breadcrumb-item:hover, .banner-section .breadcrumb-item.active{
+  color:#e20613  
+
+}
+.team-section .team-box .social-links a{
+  background:#e20613
+
+}
+.footer-section .social-links a{
+  background:#e20613
+
+}
+.footer-section h4::after{
+  background:#e20613
+
+}
+btn-custom mt-3{
+  background-color:#e20613
+}
+.navbar .nav-link:hover{
+  background:#e20613
+
+}
+.navbar .dropdown:hover .nav-link{
+  background:#e20613
+
+}
+.navbar .dropdown .dropdown-menu .dropdown-item:hover{
+  background:#e20613
+
+}
+cart-dropdown{
+  background:#e20613
+
+}
+
+.footer-section{
+  background:#6f6f6e
+}
+.company-achievement .date{
+  background:#e20613
+
+}
+.circle{
+  background:#e20613 !important;
+
+}
+date position-absolute{
+  background:#e20613
+
+}
+.top-bar {
+  background:#1d1d1b
+
+}
+.top-bar i{
+  background:#1d1d1b
+
+}
+.footer-section .footer-box .company-bio{
+  color:#fff
+}
+.footer-section .footer-box{
+  color:#fff
+
+}
+.footer-section .news-letter .form-control{
+  background-color: #1d1d1b;
+}
