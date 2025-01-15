@@ -38,7 +38,7 @@
 }
 
 .read-the-docs {
-  color: #E20613 !important;
+  color: #888;
 }
 .custom-email {
   margin-left: 10px; 
@@ -206,7 +206,7 @@
   width: 100%;
   margin: 5px 0;
   font-size: 0.85rem;
-  background-color: #E20613;
+  background-color: #fe6600;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -534,7 +534,7 @@ body {
 
 .img-box {
   position: relative;
-  height: 200px;
+ 
   overflow: hidden;
   border-radius: 8px 8px 0 0;
 }
@@ -583,7 +583,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .img-box {
-      height: 150px;
+      height: 50px;
   }
 }
 .about-section {
@@ -756,20 +756,20 @@ body {
 
 .blog-box .read-more {
   text-decoration: none;
-  color: #E20613 !important;
+  color: #007bff;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .blog-box .read-more:hover {
-  color: #E20613 !important;
+  color: #0056b3;
 }
 /* Date Badge Styling */
 .date {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #E20613 !important; /* Orange color */
+  background-color: #FF6600; /* Orange color */
   color: white;
   font-size: 1.2rem;
   padding: 0.5rem;
@@ -794,6 +794,7 @@ body {
   background-color: #f0f4fa; /* Light background similar to the image */
   border-radius: 10px; /* Rounded corners */
   transition: all 0.3s ease; /* Smooth transition for hover effects */
+  padding: 0 !important;
 }
 
 .service-box:hover {
@@ -930,20 +931,20 @@ body {
   margin-bottom: 37px;
 }
 .service-box {
-  min-height: 400px;
+  /* min-height: 400px; */
   margin: 0 15px;
   background: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   overflow: hidden;
 }
 
 .img-box {
-  height: 200px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -957,9 +958,9 @@ body {
   object-fit: contain;
 }
 
-.text-box {
+/* .text-box {
   padding: 1rem 1rem 0.5rem;
-}
+} */
 
 .service-title {
   margin-bottom: 0.5rem;
@@ -1113,8 +1114,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 8px;
+  height: 100%;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -1127,7 +1129,7 @@ body {
 
 .img-box {
   width: 100px;
-  height: 100px;
+ 
   margin-bottom: 1rem;
 }
 
@@ -1165,7 +1167,7 @@ body {
 .img-box{
 
   width: 500px;
-  height: 500px;
+  height: 70px;
 
 }
 
@@ -1178,216 +1180,4 @@ body {
 .img-fluid{
 max-height: 320px !important ;
 margin-left: -100px !important;
-}
-.faq-section .accordion-button{
-  background: #e20613;
-}
-.faq-section .accordion-button:not(.collapsed){
-  background: #1d1d1b
-}
-.social-icon{
-  color: #e20613
-}
-.knowledgebase-section .knowledge-box .header{
-  background:#e20613
-}
-.knowledgebase-section .knowledge-box .read-more{
-  color:#e20613 !important;
-}
-.btn-custom{
-  background-color:#e20613;
-  background:#e20613
-}
-.btn-custom:hover{
-  background-color:#1d1d1b;}
-h1, h2, h3, h4, h5{
-
-  color:#1d1d1b
-}
-#memberDetailsModal .social-links a{
-  background:#e20613
-}
-#memberDetailsModal .btn-close{
-  background-color:#e20613;
-
-}
-.gallery-section .portfolio-gallery .hover-item a{
-  background:#e20613
-
-}
-.services-section .service-box:hover{
-  background:#1d1d1b
-
-}
-.contact-section .info-box .icon-box i{
-  color:#e20613
-
-}
-.blog-page .blog-box .date {
-  background:#E20613 !important;
-
-}
-.blog-page .blog-box .author-date i{
-  color:#e20613 
-
-}
-element.style {
-  color:#e20613
-
-}
-.skitter .info_slide_dots .image_number{
-  border:2px solid #e20613
-
-}
-.skitter .info_slide_dots .image_number.image_number_select{
-  background-color:#e20613;
-
-}
-.skitter .info_slide_dots .image_number:hover{
-  background-color:#e20613;
-
-}
-.about-section .img-box::after{
-  background:#e20613
-
-}
-.services-section .owl-nav button{
-  border:2px solid #e20613  !important
-}
-.experience-section .experience-box h1{
-  color:#e20613  
-}
-.header-text h5{
-  color:#e20613  
-
-}
-.testimonial-section .review .title{
-    color:#e20613  
-
-}
-.base-color{
-  color:#e20613  
-
-}
-.testimonial-section .owl-nav button{
-  border:2px solid #e20613  !important
-
-}
-.testimonial-section .owl-nav button span{
-  color:#e20613  
-
-}
-.pricing-section .pricing-box.box-2 .pricing-header{
-  background: #e20613  ;
-}
-.pricing-section .pricing-box .pricing-header{
-  background: #1d1d1b
-}
-.top-bar::before {
-  background: #e20613  ;
-  border-right: #1d1d1b;
-}
-.top-bar span {
-  color:#e20613  
-
-}
-.top-bar .contacts i {
-  color:#e20613  
-
-}
-.top-bar::after{
-  background: #e20613  ;
-  border-left: #1d1d1b;
-
-
-}
-.navbar .shopping-cart .dropdown-toggle i{
-  color:#e20613  
-
-}
-.navbar .shopping-cart .dropdown-toggle .count{
-  background:#e20613
-}
-.btn-primary.disabled, .btn-primary:disabled{
-  background-color: #e20613 ;
-    border-color: #e20613 
-}
-.btn-outline-primary{
-  border-color: #e20613;
-}.form-check .form-check-input:checked{
-  background-color: #e20613 ;
-    border-color: #e20613 
-}
-.checkout-section .side-bar .side-box h4::before{
-  background:#e20613
-
-}
-.banner-section .breadcrumb-item:hover, .banner-section .breadcrumb-item.active{
-  color:#e20613  
-
-}
-.team-section .team-box .social-links a{
-  background:#e20613
-
-}
-.footer-section .social-links a{
-  background:#e20613
-
-}
-.footer-section h4::after{
-  background:#e20613
-
-}
-btn-custom mt-3{
-  background-color:#e20613
-}
-.navbar .nav-link:hover{
-  background:#e20613
-
-}
-.navbar .dropdown:hover .nav-link{
-  background:#e20613
-
-}
-.navbar .dropdown .dropdown-menu .dropdown-item:hover{
-  background:#e20613
-
-}
-cart-dropdown{
-  background:#e20613
-
-}
-
-.footer-section{
-  background:#6f6f6e
-}
-.company-achievement .date{
-  background:#e20613
-
-}
-.circle{
-  background:#e20613 !important;
-
-}
-date position-absolute{
-  background:#e20613
-
-}
-.top-bar {
-  background:#1d1d1b
-
-}
-.top-bar i{
-  background:#1d1d1b
-
-}
-.footer-section .footer-box .company-bio{
-  color:#fff
-}
-.footer-section .footer-box{
-  color:#fff
-
-}
-.footer-section .news-letter .form-control{
-  background-color: #1d1d1b;
 }

@@ -71,7 +71,7 @@ export const HomeData = {
             linkedin: 'https://www.linkedin.com/'
         }
     ],
-    services: [
+    services : [
         {
             title: 'Building Renovation',
             description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...',
@@ -106,6 +106,60 @@ export const HomeData = {
             title: 'Interior Design',
             description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...',
             image: 'https://construm.bugfinder.net/assets/uploads/services/635cb8b54068f1667020981.png',
+            link: '#'
+        },
+        {
+            title: 'Construction',
+            description: 'Comprehensive construction services, including planning, execution, and maintenance for various projects.',
+            image: 'https://images.unsplash.com/photo-1600585154340-be6161fd9600?crop=entropy&q=80&w=1374&h=800&fit=crop',
+            link: '#'
+        },
+        {
+            title: 'Real Estate',
+            description: 'Expert real estate solutions for residential, commercial, and industrial properties.',
+            image: 'https://images.unsplash.com/photo-1600585154340-be6161fd9600?crop=entropy&q=80&w=1470',
+            link: '#'
+        },
+        {
+            title: 'Project Management Services',
+            description: 'Efficient project management solutions tailored to your construction needs.',
+            image: 'https://images.unsplash.com/photo-1506765515384-028b60a970df?crop=entropy&q=80&w=1470',
+            link: '#'
+        },
+        {
+            title: 'Commercial & Residential Construction',
+            description: 'Top-notch construction services for commercial and residential properties.',
+            image: 'https://images.unsplash.com/photo-1591183694655-21e6af4e899a?crop=entropy&q=80&w=1470',
+            link: '#'
+        },
+        {
+            title: 'Engineering Services',
+            description: 'Professional engineering services for structural, mechanical, and electrical systems.',
+            image: 'https://images.unsplash.com/photo-1517080598410-1baabafd6e09?crop=entropy&q=80&w=1470',
+            link: '#'
+        },
+        {
+            title: 'Procurement Services',
+            description: 'Efficient procurement solutions for sourcing construction materials and equipment.',
+            image: 'https://images.unsplash.com/photo-1517520287167-4bbf64a00d66?crop=entropy&q=80&w=1470',
+            link: '#'
+        },
+        {
+            title: 'Civil Construction Services',
+            description: 'Reliable civil construction services for infrastructure development, roads, bridges, and more.',
+            image: 'https://images.unsplash.com/photo-1563201108-11a25cbe7634?crop=entropy&q=80&w=1470',
+            link: '#'
+        },
+        {
+            title: 'Mechanical Fabrication Services',
+            description: 'Specialized mechanical fabrication services for construction and industrial projects.',
+            image: 'https://images.unsplash.com/photo-1516015670159-d717d9974707?crop=entropy&q=80&w=1470',
+            link: '#'
+        },
+        {
+            title: 'Mechanical Erection Services',
+            description: 'Professional mechanical erection services for industrial and commercial projects.',
+            image: 'https://images.unsplash.com/photo-1517185204-d6c0f12d3881?crop=entropy&q=80&w=1470',
             link: '#'
         }
     ],

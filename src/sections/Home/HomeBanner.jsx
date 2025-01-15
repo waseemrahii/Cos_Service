@@ -49,7 +49,7 @@ export default function HomeBanner({ banners }) {
                                 </a>
                                 <div className="label_text absolute inset-0 flex flex-col justify-center items-center p-4 bg-black bg-opacity-50 text-white">
                                     <div className="container max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl text-center">
-                                        <div className="text-box">
+                                        <div className="text-box" style={{padding:"200px 0px !important"}}>
                                             <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">
                                                 {banner.title}
                                             </h1>
