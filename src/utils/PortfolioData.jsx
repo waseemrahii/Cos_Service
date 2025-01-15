@@ -51,19 +51,28 @@
 
 import constrcution1 from "../assets/Images/ConstructionofMasjid/const1_(1).jpg";
 import constrcution2 from "../assets/Images/ConstructionofMasjid/const1_(2).JPG";
-import constrcution3 from "../assets/Images/ConstructionofMasjid/const1_(3).JPG";
-import constrcution4 from "../assets/Images/ConstructionofMasjid/const1_(4).JPG";
-import constrcution5 from "../assets/Images/ConstructionofMasjid/const1_(5).JPG";
 import constrcution6 from "../assets/Images/ConstructionofMasjid/const1_(6).JPG";
 import constrcution7 from "../assets/Images/ConstructionofMasjid/const1_(7).JPG";
 import constrcution8 from "../assets/Images/ConstructionofMasjid/const1_(8).JPG";
-import constrcution9 from "../assets/Images/ConstructionofMasjid/const1_(9).JPG";
-import constrcution10 from "../assets/Images/ConstructionofMasjid/const1_(10).JPG";
-import constrcution11 from "../assets/Images/ConstructionofMasjid/const1_(11).JPG";
-import constrcution12 from "../assets/Images/ConstructionofMasjid/const1_(12).JPG";
+import constrcution01 from "../assets/Images/ConstructionofMasjid/const01_(1).jpg";
+// import constrcution01 from "../assets/Images/ConstructionofMasjid/const01_(1).jpg";
+import constrcution02 from "../assets/Images/ConstructionofMasjid/const01_(3).jpg";
+// import constrcution03 from "../assets/Images/ConstructionofMasjid/const01_(3).jpg";
+import constrcution04 from "../assets/Images/ConstructionofMasjid/const01_(4).jpg";
+import constrcution05 from "../assets/Images/ConstructionofMasjid/const01_(5).jpg";
+import constrcution06 from "../assets/Images/ConstructionofMasjid/const01_(6).jpg";
+
 import constrcution13 from "../assets/Images/ConstructionofMasjid/const1_(13).JPG";
 
-import resconstraction1 from "../assets/Images/Expressway06-E&F/express(1).JPG";
+import resconstraction2 from "../assets/Images/Expressway06-E&F/express(2).jpg";
+import resconstraction3 from "../assets/Images/Expressway06-E&F/express(3).jpg";
+
+import resconstraction5 from "../assets/Images/Expressway06-E&F/express(5).jpg";
+import resconstraction6 from "../assets/Images/Expressway06-E&F/express(6).JPG";
+import resconstraction7 from "../assets/Images/Expressway06-E&F/expresss(1).jpg";
+import resconstraction8 from "../assets/Images/Expressway06-E&F/expresss(2).jpg";
+import resconstraction9 from "../assets/Images/Expressway06-E&F/expresss(3).jpg";
+import resconstraction10 from "../assets/Images/Expressway06-E&F/expresss(4).jpg";
 export const PortfolioData = {
   sidebarLinks: [
     { id: "all", text: "All works", href: "#" },
@@ -71,9 +80,9 @@ export const PortfolioData = {
     { id: "commercial", text: "Commercial", href: "#" },
     { id: "education", text: "Education", href: "#" },
     { id: "office", text: "Office", href: "#" },
+    { id: "construction", text: "Construction", href: "#" },
     { id: "reconstruction", text: "Reconstruction", href: "#" },
     { id: "hospital", text: "Hospital", href: "#" },
-    { id: "construction", text: "Construction", href: "#" },
   ],
   projectImages: [
     {
@@ -89,17 +98,15 @@ export const PortfolioData = {
         // "https://images.unsplash.com/photo-1649083048770-82e8ffd80431?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         constrcution1,
         constrcution2,
-        constrcution3,
-        constrcution4,
-        constrcution5,
         constrcution6,
         constrcution7,
         constrcution8,
-        constrcution9,
-        constrcution10,
-        constrcution11,
-        constrcution12,
         constrcution13,
+        constrcution01,
+        constrcution02,
+        constrcution04,
+        constrcution05,
+        constrcution06,
       ],
     },
     {
@@ -117,7 +124,15 @@ export const PortfolioData = {
     {
       id: "reconstruction",
       images: [
-        resconstraction1,
+        resconstraction2,
+        resconstraction3,
+
+        resconstraction5,
+        resconstraction6,
+        resconstraction7,
+        resconstraction8,
+        resconstraction9,
+        resconstraction10,
         // "https://images.unsplash.com/photo-1645931467048-7050c2d1a3e0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       ],
     },
