@@ -29,7 +29,7 @@ export default function TestimonialSection() {
 
     {
       _id: "66d2b97cfd718f8a89ec530c",
-      name: "Alice Johnson",
+      name: "Zainab",
       role: "Marketing Specialist",
       message:
         "Working with this team was a great experience. Their expertise and professionalism helped us achieve our goals efficiently. The team brought creative ideas and a professional approach that significantly improved our marketing campaigns.",
@@ -40,7 +40,7 @@ export default function TestimonialSection() {
     },
     {
       _id: "66d2b9defd718f8a89ec530e",
-      name: "David Smith",
+      name: "Muhammad Waseem",
       role: "Software Developer",
       message:
         "A fantastic service that understands the needs of developers. I highly recommend them to anyone looking for quality work. Great collaboration and seamless communication throughout the project. Highly recommended!",
@@ -51,7 +51,7 @@ export default function TestimonialSection() {
     },
     {
       _id: "66d2bab8fd718f8a89ec5310",
-      name: "Emma Williams",
+      name: "Mahira",
       role: "Graphic Designer",
       message:
         "The creativity and dedication of this team are unmatched. I was thrilled with the final design, which exceeded all my expectations. Their design work exceeded my expectations, delivering outstanding visuals that perfectly matched my vision.",
@@ -62,7 +62,7 @@ export default function TestimonialSection() {
     },
     {
       _id: "66d2bb29fd718f8a89ec5312",
-      name: "John Doe",
+      name: "Muhammad Salman",
       role: "Project Manager",
       message:
         "Their attention to detail and project management skills ensured that everything was delivered on time and within budget. Exceptional project management, with everything delivered on time and within scope.",
@@ -73,7 +73,7 @@ export default function TestimonialSection() {
     },
     {
       _id: "66d2bb76fd718f8a89ec5314",
-      name: "Sophia Brown",
+      name: "Sofia ",
       role: "Content Writer",
       message:
         "I enjoyed collaborating with the team. They respected my creative ideas and provided valuable feedback to enhance the final product. A wonderful team to work with! They valued my input and helped refine my ideas into great content.",

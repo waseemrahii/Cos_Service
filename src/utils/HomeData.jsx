@@ -17,6 +17,27 @@ export const HomeData = {
             link: '#cube'
         },
         {
+            image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            title: 'Build Your Dream With Us',
+            description: 'The Best Construction Company',
+            buttonText: 'EXPLORE MORE',
+            link: '#cube'
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            title: 'Build Your Dream With Us',
+            description: 'The Best Construction Company',
+            buttonText: 'EXPLORE MORE',
+            link: '#cube'
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            title: 'Build Your Dream With Us',
+            description: 'The Best Construction Company',
+            buttonText: 'EXPLORE MORE',
+            link: '#cube'
+        },
+        {
             image: 'https://images.unsplash.com/photo-1580901369227-308f6f40bdeb?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
             title: 'Build Your Dream With Us',
             description: 'The Best Construction Company',
@@ -164,7 +185,7 @@ export const HomeData = {
         }
     ],
     aboutContent: `
-        At Cosmic Construction Company, we believe that every building is a work of art. 
+        At, we believe that every building is a work of art. 
         Founded with a vision to revolutionize the construction industry, we have grown into a leading provider 
         of comprehensive construction services, renowned for our commitment to quality, innovation, and customer satisfaction.
 

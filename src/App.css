@@ -958,9 +958,9 @@ body {
   object-fit: contain;
 }
 
-/* .text-box {
+.text-box {
   padding: 1rem 1rem 0.5rem;
-} */
+}
 
 .service-title {
   margin-bottom: 0.5rem;

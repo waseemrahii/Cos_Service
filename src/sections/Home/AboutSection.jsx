@@ -4,14 +4,16 @@ export default function AboutSection() {
     // Static data based on your provided JSON
     const aboutData = {
         title: "Know Us Better",
-        description: "\"Know Us Better\" is an invitation to delve deeper into the heart of who we are as an organisation. It's an opportunity for you to explore our values, our mission, and the principles that drive us forward. This section is designed to give you a closer look at our journey, the people behind our success, and the unique approach we take to delivering excellence. Whether you're a prospective client, a potential partner, or simply curious, we welcome you to discover what makes us stand out and how we aim to make a meaningful impact in our industry and beyond.",
+        description: 
+        "Cosmic Construction Int’l (Private) Limited has come a long way to symbolize commitment,         distinction and professional excellence by meeting the stringent, demanding and extra ordinary work requirements of high engineering, importance involving civil,         electrical and mechanical works for the last 18 years. The ever-increasing efforts towards          attaining better and new business ventures have exposed the company to multitude of engineering disciplines.          Now it is company's prerogative to be working in infrastructure,     housing, design and environmental areas other than its strong standing in industrial projects for, chemicals,   road, highways and buildings. CCIPL boasts and claims to have a reputation of company delivering the projects           ahead of schedule.",
         image: "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        yearsOfExperience: 10 // For example, 10+ years
+               yearsOfExperience: 18 // For example, 10+ years
     };
 
     return (
         <AboutContent 
-            title={`We Have ${aboutData.yearsOfExperience}+ Years of Experience in This Industry`}
+          title={`Over  ${aboutData.yearsOfExperience}+ Years of Industry Experience`}
+
             description={aboutData.description}
             image={aboutData.image}
         />

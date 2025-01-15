@@ -49,17 +49,23 @@ export default function HomeBanner({ banners }) {
                                 </a>
                                 <div className="label_text absolute inset-0 flex flex-col justify-center items-center p-4 bg-black bg-opacity-50 text-white">
                                     <div className="container max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl text-center">
-                                        <div className="text-box" style={{padding:"200px 0px !important"}}>
-                                            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">
-                                                {banner.title}
-                                            </h1>
-                                            <p className="mt-2 text-sm sm:text-base md:text-lg lg:text-xl">
-                                                {banner.description}
-                                            </p>
-                                            <button className="btn-custom mt-4 px-4 py-2 bg-orange-600 hover:bg-orange-700 rounded-lg">
-                                                {banner.buttonText}
-                                            </button>
-                                        </div>
+                                    <div className="text-box p-0" style={{padding:"1rem"}}>
+                                   
+                                    <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold"
+                                    style={{color:"#FE6600"}}>
+  {banner.title}
+</h1>
+<p className="mt-2 text-sm sm:text-base md:text-lg lg:text-xl">
+  {banner.description}
+</p>
+<button className="px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white font-medium rounded-lg"
+style={{background:"#FE6600", color:"white"}}
+>
+  {banner.buttonText}
+</button>
+
+</div>
+
                                     </div>
                                 </div>
                             </li>
