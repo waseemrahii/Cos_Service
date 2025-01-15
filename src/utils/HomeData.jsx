@@ -2,49 +2,92 @@ import CosmicLogo from '../assets/CosmicLogo.png'
 
 export const HomeData = {
     banners: [
+    
+        {
+            image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            title: 'Expertise Redefined',
+            description: 'Specializing in Civil, Electrical, and Mechanical Projects',
+            buttonText: 'LEARN MORE',
+            link: '#projects'
+        },
         {
             image: 'https://plus.unsplash.com/premium_photo-1684450118907-ee3e684c3455?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'Build Your Dream With Us',
-            description: 'The Best Construction Company',
+            title: 'Innovative Solutions',
+            description: 'Delivering Excellence in Construction and Infrastructure',
             buttonText: 'EXPLORE MORE',
-            link: '#cube'
+            link: '#services'
         },
         {
             image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'Build Your Dream With Us',
-            description: 'The Best Construction Company',
-            buttonText: 'EXPLORE MORE',
-            link: '#cube'
+            title: 'Timely Delivery',
+            description: 'Redefining Project Completion Standards Across Industries',
+            buttonText: 'OUR WORK',
+            link: '#portfolio'
         },
         {
-            image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'Build Your Dream With Us',
-            description: 'The Best Construction Company',
-            buttonText: 'EXPLORE MORE',
-            link: '#cube'
+            image: '/banner1.jpg',
+            title: 'Quality Commitment',
+            description: '18 Years of Professional Excellence and Distinction',
+            buttonText: 'DISCOVER MORE',
+            link: '#about'
         },
         {
-            image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'Build Your Dream With Us',
-            description: 'The Best Construction Company',
-            buttonText: 'EXPLORE MORE',
-            link: '#cube'
+            image: '/banner2.jpg',
+            title: 'Sustainable Growth',
+            description: 'Leading the Way in Housing, Roads, and Environmental Projects',
+            buttonText: 'SEE MORE',
+            link: '#sustainability'
         },
         {
-            image: 'https://images.unsplash.com/photo-1622082679766-c5912d9416eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'Build Your Dream With Us',
-            description: 'The Best Construction Company',
-            buttonText: 'EXPLORE MORE',
-            link: '#cube'
+            image: '/banner3.jpg',
+            title: 'Crafting Futures',
+            description: 'Trusted Partners in Industrial and Commercial Construction',
+            buttonText: 'GET STARTED',
+            link: '#contact'
         },
         {
-            image: 'https://images.unsplash.com/photo-1580901369227-308f6f40bdeb?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'Build Your Dream With Us',
-            description: 'The Best Construction Company',
-            buttonText: 'EXPLORE MORE',
-            link: '#cube'
-        }
-    ],
+            image: '/banner7.JPG',
+            title: 'Ahead of Time',
+            description: 'Proven Track Record in Delivering Projects Ahead of Schedule',
+            buttonText: 'KNOW MORE',
+            link: '#testimonials'
+        },
+        {
+            image: '/banner8.JPG',
+            title: 'Proven Success',
+            description: 'Proven Track Record in Delivering Projects Ahead of Schedule',
+            buttonText: 'KNOW MORE',
+            link: '#testimonials'
+        },
+        {
+            image: '/banner9.JPG',
+            title: 'Excellence Delivered',
+            description: 'Proven Track Record in Delivering Projects Ahead of Schedule',
+            buttonText: 'KNOW MORE',
+            link: '#testimonials'
+        },
+        {
+            image: '/banner10.jpg',
+            title: 'Trusted Partner',
+            description: 'Proven Track Record in Delivering Projects Ahead of Schedule',
+            buttonText: 'KNOW MORE',
+            link: '#testimonials'
+        },
+        {
+            image: '/banner5.jpg',
+            title: 'Design Experts',
+            description: 'Specialists in Infrastructure, Design, and Environmental Areas',
+            buttonText: 'VIEW DETAILS',
+            link: '#design'
+        },
+        {
+            image: '/banner6.jpg',
+            title: 'Your Vision',
+            description: 'Creating Landmarks Through Precision and Dedication',
+            buttonText: 'PARTNER WITH US',
+            link: '#partners'
+        },
+    ],      
     testimonials: [
         {
             image: 'https://construm.bugfinder.net/assets/uploads/content/63550eaeaab481666518702.jpg',

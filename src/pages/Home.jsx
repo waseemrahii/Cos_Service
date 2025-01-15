@@ -11,6 +11,7 @@ import PricingSection from "../sections/Home/PricingSection";
 import ServicesSection from "../sections/Home/ServicesSection";
 import TeamSection from "../sections/Home/TeamSection";
 import { HomeData } from "../utils/HomeData"; // Static data import
+import Portfolio from "../sections/Home/PortfolioSection";
 
 export default function Home() {
   // Extract all the necessary data from the HomeData object
@@ -45,10 +46,11 @@ export default function Home() {
           />
         )}
         <ServicesSection services={services} />
-        <PortfolioSection
+        {/* <PortfolioSection
           portfolioItems={portfolioItems}
           categories={categories}
-        />
+        /> */}
+        <Portfolio />
         <ExperienceSection
           experienceDetails={experienceDetails}
           backgroundImage={experienceBackground}
