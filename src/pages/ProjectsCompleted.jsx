@@ -213,15 +213,30 @@ export default function ProjectsCompleted({ sidebarLinks, projectImages }) {
       </aside>
       <section style={portfolioImagesStyle}>
         {filteredImages.length > 0 ? (
-          filteredImages.map((imageData, index) => (
-            <div key={index} style={portfolioItemStyle}>
-              <img
-                src={imageData.image}
-                alt={`${imageData.id} ${index}`}
-                style={imageStyle}
-              />
-            </div>
-          ))
+          filteredImages.map((imageData, index) => {
+            if (imageData.images) {
+              // If the category has multiple images
+              return imageData.images.map((image, subIndex) => (
+                <div key={`${index}-${subIndex}`} style={portfolioItemStyle}>
+                  <img
+                    src={image}
+                    alt={`${imageData.id} ${subIndex}`}
+                    style={imageStyle}
+                  />
+                </div>
+              ));
+            }
+            // If the category has a single image
+            return (
+              <div key={index} style={portfolioItemStyle}>
+                <img
+                  src={imageData.image}
+                  alt={`${imageData.id} ${index}`}
+                  style={imageStyle}
+                />
+              </div>
+            );
+          })
         ) : (
           <p style={fallbackStyle}>No projects available in this category.</p>
         )}
