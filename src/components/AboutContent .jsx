@@ -30,7 +30,7 @@ export default function AboutContent({ title, description, image }) {
               <img
                 src={image}
                 alt={title}
-                className="img-fluid"
+                className="img-fluid h-[100%] w-[100%] object-cover"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -48,7 +48,7 @@ export default function AboutContent({ title, description, image }) {
               style={{ paddingLeft: "20px" }}
             >
               <h5>About Us</h5>
-              <h2 className="mb-4">{title}</h2>
+              <h3 className="mb-4">{title}</h3>
               <p className="lead" style={{ textAlign: "justify" }}>
                 {description}
               </p>
