@@ -1,4 +1,5 @@
 import CosmicLogo from '../assets/CosmicLogo.png'
+import banner1 from  '../assets/Images/ConstructionofMasjid/const1_(1).jpg'
 
 export const HomeData = {
     banners: [
@@ -25,7 +26,7 @@ export const HomeData = {
             link: '#portfolio'
         },
         {
-            image: '/banner1.jpg',
+            image: {banner1},
             title: 'Quality Commitment',
             description: '18 Years of Professional Excellence and Distinction',
             buttonText: 'DISCOVER MORE',
