@@ -50,7 +50,7 @@ export default function About() {
                                 <div className="achievement-box d-flex align-items-start">
                                     <div className="date text-center me-4 position-relative">
                                         <div className="circle" style={{
-                                            background: '#ff6600',
+                                            background: '#E20613',
                                             color: '#fff',
                                             borderRadius: '50%',
                                             width: '120px',
@@ -89,7 +89,7 @@ export default function About() {
                                 <div className="achievement-box d-flex align-items-start">
                                     <div className="date text-center me-4 position-relative">
                                         <div className="circle" style={{
-                                            background: '#ff6600',
+                                            background: '#E20613',
                                             color: '#fff',
                                             borderRadius: '50%',
                                             width: '120px',
@@ -128,7 +128,7 @@ export default function About() {
                                 <div className="achievement-box d-flex align-items-start">
                                     <div className="date text-center me-4 position-relative">
                                         <div className="circle" style={{
-                                            background: '#ff6600',
+                                            background: '#E20613',
                                             color: '#fff',
                                             borderRadius: '50%',
                                             width:'1aaa20px',

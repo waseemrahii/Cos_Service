@@ -135,6 +135,7 @@ export const HomeData = {
             twitter: 'https://twitter.com/',
             linkedin: 'https://www.linkedin.com/'
         }
+      
     ],
     services : [
         {

@@ -168,7 +168,7 @@
   position: absolute;
   top: -5px;
   right: -10px;
-  background-color: red;
+  background-color: #E20613;
   color: white;
   border-radius: 50%;
   padding: 2px 6px;
@@ -206,7 +206,7 @@
   width: 100%;
   margin: 5px 0;
   font-size: 0.85rem;
-  background-color: #fe6600;
+  background-color: #E20613;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -216,7 +216,7 @@
 
 /* Hover effects for buttons */
 .shopping-cart .cart-bottom .btn-custom:hover {
-  background-color: #e55a00;
+  background-color: #E20613;
 }
 
 /* Responsive adjustments */
@@ -270,7 +270,7 @@
   position: absolute;
   top: -5px;
   right: -10px;
-  background-color: red;
+  background-color: #E20613;
   color: white;
   border-radius: 50%;
   padding: 2px 6px;
@@ -315,7 +315,7 @@
   position: absolute;
   top: -5px;
   right: -10px;
-  background-color: red;
+  background-color: #E20613;
   color: white;
   border-radius: 50%;
   padding: 2px 6px;
@@ -354,7 +354,7 @@
   width: 100%;
   margin: 5px 0;
   font-size: 0.85rem;
-  background-color: #fe6600;
+  background-color: #E20613;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -364,7 +364,7 @@
 
 /* Hover effects for buttons */
 .shopping-cart .cart-bottom .btn-custom:hover {
-  background-color: #e55a00;
+  background-color: #E20613;
 }
 
 /* Responsive adjustments */
@@ -446,7 +446,7 @@
   width: 100%;
   margin: 5px 0;
   font-size: 0.85rem;
-  background-color: #fe6600;
+  background-color: #E20613;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -455,7 +455,7 @@
 }
 
 .shopping-cart .cart-bottom .btn-custom:hover {
-  background-color: #e55a00;
+  background-color: #E20613;
 }
 
 /* Responsive adjustments */
@@ -477,7 +477,7 @@
   flex: 1;
   margin: 5px;
   font-size: 0.85rem;
-  background-color: #fe6600;
+  background-color: #E20613;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -490,7 +490,7 @@
 }
 
 .shopping-cart .btn-custom:hover {
-  background-color: #e55a00;
+  background-color: #E20613;
 }
 
 /* Basic Styling */
@@ -676,7 +676,7 @@ body {
 }
 
 .social-icon {
-  color: #ff5722;
+  color: #E20613;
   font-size: 16px;
 }
 
@@ -769,7 +769,7 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #FF6600; /* Orange color */
+  background-color: #E20613; /* Orange color */
   color: white;
   font-size: 1.2rem;
   padding: 0.5rem;
@@ -975,7 +975,7 @@ body {
 }
 
 .service-link {
-  color: #FF6600;
+  color: #E20613;
   text-decoration: none;
   padding: 10px 0;
   display: inline-block;
@@ -990,7 +990,7 @@ body {
 }
 
 .btn-custom {
-  background-color: #fe6600; /* Primary color */
+  background-color: #E20613; /* Primary color */
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -1000,7 +1000,7 @@ body {
 }
 
 .btn-custom:hover {
-  background-color: #fe6600; /* Darker shade on hover */
+  background-color: #E20613; /* Darker shade on hover */
 }
 
 .cart-item {

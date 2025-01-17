@@ -10,8 +10,8 @@ import PortfolioSection from "../sections/Home/PortfolioSection";
 import PricingSection from "../sections/Home/PricingSection";
 import ServicesSection from "../sections/Home/ServicesSection";
 import TeamSection from "../sections/Home/TeamSection";
-import { HomeData } from "../utils/HomeData"; // Static data import
 import Portfolio from "../sections/Home/PortfolioSection";
+import { HomeData } from "../utils/HomeData";
 
 export default function Home() {
   // Extract all the necessary data from the HomeData object

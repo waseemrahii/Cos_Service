@@ -69,11 +69,11 @@ export default function ProductBox({ imgSrc, title = 'Untitled Product', price, 
                         <i
                             className="fas fa-heart"
                             style={{
-                                color: '#ff6600',
+                                color: '#E20613',
                                 backgroundColor: '#fff',
                                 padding: '5px',
                                 borderRadius: '50%',
-                                border: '1px solid #ff6600',
+                                border: '1px solid #E20613',
                             }}
                         />
                         <i
@@ -114,9 +114,9 @@ export default function ProductBox({ imgSrc, title = 'Untitled Product', price, 
                     </p>
                     <div className="review">
                         {Array.from({ length: rating }, (_, i) => (
-                            <i className="fas fa-star" key={i} style={{ color: '#E20613' }} />
+                            <i className="fas fa-star" key={i} style={{ color: '#E20613 !important' }} />
                         ))}
-                        {rating < 5 && <i className="fas fa-star-half-alt" style={{ color: '#E20613' }} />}
+                        {rating < 5 && <i className="fas fa-star-half-alt" style={{ color: '#E20613 !important' }} />}
                     </div>
                 </div>
             </div>

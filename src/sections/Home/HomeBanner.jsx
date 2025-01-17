@@ -53,14 +53,14 @@ export default function HomeBanner({ banners }) {
                                     <div className="text-box p-0" style={{marginBottom:"2rem"}}>
                                    
                                     <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold"
-                                    style={{color:"#FE6600"}}>
+                                    style={{color:"#E20613"}}>
   {banner.title}
 </h1>
 <p className="mt-2 text-sm sm:text-base md:text-lg lg:text-xl">
   {banner.description}
 </p>
-<button className="px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white font-bold rounded-lg"
-style={{background:"#FE6600", color:"white"}}
+<button className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white font-bold rounded-lg"
+style={{background:"#E20613", color:"white"}}
 >
   {banner.buttonText}
 </button>

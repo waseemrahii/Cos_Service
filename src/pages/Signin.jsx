@@ -115,7 +115,7 @@ export default function Signin() {
                     Don't have an account?{' '}
                     <span
                       onClick={() => navigate('/register')}
-                      style={{ cursor: 'pointer', color: '#fe6600', textDecoration: 'underline' }}
+                      style={{ cursor: 'pointer', color: '#E20613', textDecoration: 'underline' }}
                     >
                       Register
                     </span>
